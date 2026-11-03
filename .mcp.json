@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "notely-voice": {
+      "type": "http",
+      "url": "https://mcp.notelyvoice.ai/mcp"
+    }
+  }
+}

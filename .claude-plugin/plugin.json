@@ -1,0 +1,21 @@
+{
+  "name": "notely-voice",
+  "displayName": "Notely Voice",
+  "version": "1.0.3",
+  "description": "Search, analyze, and synthesize your voice notes in Notely Voice Pro. Query full audio transcripts, review AI generated summaries and action items, and browse note folders.",
+  "author": {
+    "name": "Notely Voice Pro",
+    "email": "support@notelyvoice.ai",
+    "url": "https://notelyvoice.ai"
+  },
+  "homepage": "https://notelyvoice.ai",
+  "license": "Proprietary",
+  "keywords": [
+    "voice-notes",
+    "transcripts",
+    "summaries",
+    "productivity",
+    "audio"
+  ],
+  "privacyPolicyUrl": "https://notelyvoice.ai/privacy"
+}
