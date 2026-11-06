@@ -1,7 +1,7 @@
 {
   "name": "notely-voice",
   "displayName": "Notely Voice",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Search, analyze, and synthesize your voice notes in Notely Voice Pro. Query full audio transcripts, review AI generated summaries and action items, and browse note folders.",
   "author": {
     "name": "Notely Voice Pro",

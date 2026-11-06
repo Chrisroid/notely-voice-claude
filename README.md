@@ -9,6 +9,7 @@ Search and read your existing Notely Voice Pro library from Claude: voice notes,
 - **Search** – find notes by topic, with snippet previews
 - **Open a note** – full transcript, summary, key takeaways and action items
 - **Folders** – list your folders with note counts
+- **Account status** – your plan (cloud premium or not), account type and total note count
 
 The plugin is read-only. It does not record audio, transcribe new uploads, edit or delete notes, share notes, or process payments.
 
@@ -19,6 +20,7 @@ The plugin is read-only. It does not record audio, transcribe new uploads, edit 
 - "Search my voice notes for project launch discussions."
 - "Open the transcript and action items for my last meeting."
 - "List all my voice note folders."
+- "Which Notely plan am I on?"
 
 ## Setup
 
@@ -31,7 +33,7 @@ You need a Notely Voice Pro account.
 ## What the plugin contains and connects to
 
 - One skill (`get-started`) that tells Claude how to use the Notely Voice tools safely.
-- One remote MCP server: `https://mcp.notelyvoice.ai/mcp`, operated by Notely Voice Pro.
+- One remote MCP server: `https://mcp.notelyvoice.ai/mcp`, operated by Notely Voice Pro. It exposes six read-only tools: `get_notes_overview`, `get_recent_notes`, `search_notes`, `get_note_by_id`, `list_folders` and `check_account_status`.
 
 Your search queries and note requests are sent to that server, and the notes it returns are shown to Claude to answer you. The plugin runs no local code, installs no packages, contains no credentials, and sends data nowhere else.
 
